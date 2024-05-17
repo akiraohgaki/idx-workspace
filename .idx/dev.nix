@@ -29,7 +29,7 @@
           command = ["bash" ".idx/webpreview.sh"];
           manager = "web";
           env = {
-            PORT = "$PORT"
+            PORT = "$PORT";
           };
         };
       };
