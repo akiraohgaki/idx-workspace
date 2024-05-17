@@ -26,9 +26,11 @@
       enable = true;
       previews = {
         web = {
-          command = ["deno" "run" "--allow-sys" "--allow-read" "--allow-net" "jsr:@std/http/file-server" "." "-p" "$PORT"];
+          command = ["bash" ".idx/webpreview.sh"];
           manager = "web";
-          env = {};
+          env = {
+            PORT = "$PORT"
+          };
         };
       };
     };
