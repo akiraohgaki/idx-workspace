@@ -22,6 +22,14 @@
   env = {};
   idx = {
     extensions = [];
+    workspace = {
+      onCreate = {
+        setup = "bash .idx/setup.sh";
+      };
+      onStart = {
+        startup = "bash .idx/startup.sh";
+      };
+    };
     previews = {
       enable = true;
       previews = {
@@ -32,14 +40,6 @@
             PORT = "$PORT";
           };
         };
-      };
-    };
-    workspace = {
-      onCreate = {
-        setup = "bash .idx/setup.sh";
-      };
-      onStart = {
-        startup = "bash .idx/startup.sh";
       };
     };
   };
