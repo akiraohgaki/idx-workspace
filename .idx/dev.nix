@@ -12,10 +12,10 @@
 
   idx = {
     extensions = [
-      "mhutchie.git-graph"
+      "denoland.vscode-deno"
       "EditorConfig.EditorConfig"
       "foxundermoon.shell-format"
-      "denoland.vscode-deno"
+      "mhutchie.git-graph"
       "runem.lit-plugin"
     ];
 
