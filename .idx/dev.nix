@@ -33,7 +33,7 @@
       onCreate = {
         setup = "bash .idx/setup.sh";
       };
-      onStart = { };
+      #onStart = { };
     };
   };
 }
