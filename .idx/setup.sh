@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -f "${HOME}/setup-done" ]; then
+if [ -f "${HOME}/.setup-done" ]; then
   exit 0
 fi
 
@@ -22,6 +22,4 @@ curl -fsSL -o "${HOME}/.codeoss-cloudworkstations/data/Machine/settings.json" --
 
 echo $'\n'"source ${ENV_FILE}" >>"${HOME}/.bashrc"
 
-rm -rf "$(pwd)/.git"
-
-touch "${HOME}/setup-done"
+touch "${HOME}/.setup-done"
