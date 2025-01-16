@@ -16,9 +16,6 @@
       "EditorConfig.EditorConfig"
       "foxundermoon.shell-format"
       "denoland.vscode-deno"
-      "dbaeumer.vscode-eslint"
-      "esbenp.prettier-vscode"
-      "Orta.vscode-jest"
       "runem.lit-plugin"
     ];
 
