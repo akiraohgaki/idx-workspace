@@ -15,7 +15,6 @@
       "denoland.vscode-deno"
       "EditorConfig.EditorConfig"
       "foxundermoon.shell-format"
-      "mhutchie.git-graph"
       "runem.lit-plugin"
     ];
 
